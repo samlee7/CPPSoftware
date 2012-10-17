@@ -1,0 +1,58 @@
+MYSHELL VERSION 1.0.1
+by Sam Lee
+UC Riverside
+
+------------
+
+Myshell is a subset of bash that can run Unix commands and programs. 
+
+Supported features
+------------------
+
+Runs unix commands such as: ls, pwd, top.
+Can change directory using cd.
+Program can run in background using &.
+Multiple commands in one line by separating them with ;.
+~ representation.
+I/O redirection and pipeline
+
+Known bugs
+---------- 
+
+(fixed)Small UI bug when cd is called with wrong path
+
+Version history
+---------------
+
+Project created - 08/11/12
+1.0.1 - Added I/O redirection
+        Added Pipeline
+        show path when program is called
+        bug fixes
+
+Content
+------
+
+  Files included in current release:
+ 
+  myshell.cc
+  design.txt
+  Makefile
+  README
+
+Installation
+------------
+
+  UNIX
+  ----
+  1. Download assn3.gz file and unzip
+
+  2. type make in your command line.
+
+  3. type myshell to run myshell program.
+
+Contact information
+------------------
+
+Sam Lee
+slee103@ucr.edu
